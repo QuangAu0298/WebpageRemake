@@ -1,10 +1,44 @@
+#TopMenu {
+    width: 1000px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+body {
+    background-image: url("ng_october_bkg_art.webp");
+    background-color: #232525;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #search-bar {
     background-color: rgb(102, 103, 100);
-    height: 30px;
-    width: 300px;
+    width: 400px;
 }
 
 .custom-search::placeholder {
     color: #2d2f2f !important;
     opacity: 1;
+    font-size: smaller;
+    
 }
+
+
+
+.custom-link {
+  position: relative;
+  border-bottom: 3px solid;
+  transition: border-color 0.2s ease-in-out;
+  width: 120px;
+  color: white;
+  text-align: center;
+  height: auto;
+}
+
+/* On hover or when active, read the custom color from the HTML style attribute */
+.custom-link:hover,
+.custom-link.active {
+  border-bottom-color: var(--line-color, #ffffff) !important;
+  color: white;
+}
+
