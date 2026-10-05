@@ -2,6 +2,9 @@
     width: 1000px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
 }
 
 body {
@@ -12,7 +15,7 @@ body {
 }
 
 #search-bar {
-    background-color: rgb(102, 103, 100);
+    background-color: rgb(88, 90, 91);
     width: 400px;
 }
 
@@ -33,6 +36,7 @@ body {
   color: white;
   text-align: center;
   height: auto;
+  padding: 5px;
 }
 
 /* On hover or when active, read the custom color from the HTML style attribute */
